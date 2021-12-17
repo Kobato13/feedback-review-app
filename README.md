@@ -1,24 +1,31 @@
-# README
+# Orbit README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. The ability to add a new team member:
 
-Things you may want to cover:
+   - first name
+   - surname
+   - department
+   - job role
+   - team
 
-* Ruby version
+2. View/Show all team members
 
-* System dependencies
+3. The ability to leave reviews/feedback for a team member
 
-* Configuration
+   - grade
+   - content
+   - user_id
 
-* Database creation
+4. View/Show all reviews/feedback
 
-* Database initialization
+5. The ability to add areas of success as defined by client
 
-* How to run the test suite
+   - area 1: project delivery
+   - area 2: communications
+   - area 3: training
+   - area 4: objectives
+   - area 5: resourcing
 
-* Services (job queues, cache servers, search engines, etc.)
+6. View/Show all client areas of success
 
-* Deployment instructions
-
-* ...
+7. The ability to view performance metrics
