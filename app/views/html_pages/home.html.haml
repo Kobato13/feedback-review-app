@@ -1,5 +1,9 @@
-%h1 Orbit Home Page
-%p 
-  This is the template
-  %b home page 
-  for our Orbit Feedback Application
+- provide(:title, 'Home')
+
+-# %div{:class => "center jumbotron "}
+.center.jumbotron
+  %h1 Welcome to Orbit
+  %h2
+    This is the homepage of the Orbit applcation. You can find the codebase for this application at
+    %a{href: "https://github.com/Kobato13"} my GitHub account.
+  = link_to "Create an account", '#', class: "btn btn-lg btn-primary"
