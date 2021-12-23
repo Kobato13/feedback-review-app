@@ -5,5 +5,5 @@
   -# = image_tag snapshot.display_image if snapshot.image.attached?
   %span.timestamp
     Posted #{time_ago_in_words(snapshot.created_at)} ago.
-    -# - if current_user?(snapshot.user)
-    -#   = link_to "delete", snapshot, method: :delete, data: { confirm: "Are you sure?" }
+    - if current_user?(snapshot.user)
+      = link_to "delete", snapshot, method: :delete, data: { confirm: "Are you sure?" }
