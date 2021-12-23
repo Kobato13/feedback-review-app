@@ -1,6 +1,9 @@
 class HtmlPagesController < ApplicationController
   def home
-    @snapshot = current_user.snapshots.build if logged_in?
+    if logged_in?
+      @snapshot = current_user.snapshots.build
+      @feed_items = current_user.feed.paginate(page: params[:page])
+    end
   end
 
   def help

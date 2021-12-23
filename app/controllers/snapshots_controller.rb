@@ -7,6 +7,7 @@ class SnapshotsController < ApplicationController
       flash[:success] = "Snapshot created"
       redirect_to root_url
     else
+      @feed_items = current_user.feed.paginate(page: params[:page])
       render 'html_pages/home'
     end
   end
