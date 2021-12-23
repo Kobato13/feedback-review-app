@@ -5,6 +5,8 @@ ruby '2.7.4'
 
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 gem 'active_storage_validations', '~> 0.9.6'
+gem 'image_processing', '~> 1.12', '>= 1.12.1'
+gem 'mini_magick', '~> 4.11'
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'faker', '~> 2.19'
 gem 'will_paginate', '~> 3.3', '>= 3.3.1'
