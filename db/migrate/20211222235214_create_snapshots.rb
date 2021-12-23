@@ -6,6 +6,6 @@ class CreateSnapshots < ActiveRecord::Migration[6.1]
 
       t.timestamps
     end
-    add_index :snapshots, [:user_id, :create_at]
+    add_index :snapshots, [:user_id, :created_at]
   end
 end
