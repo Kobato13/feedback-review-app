@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :snapshots
+  has_many :snapshots, dependent: :destroy
   before_save { self.email = email.downcase }
 
   validates :name, presence: true, length: { maximum: 60 }
