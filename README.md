@@ -1,4 +1,4 @@
-# Orbit README
+# README
 
 https://lit-wildwood-56193.herokuapp.com/ | https://git.heroku.com/lit-wildwood-56193.git
 

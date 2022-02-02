@@ -3,7 +3,7 @@ module ApplicationHelper
 
   # Method definition, optional argument
   def full_title(page_title = ' ')
-    base_title = "Orbit Feedback Application" # Creating and assigning a variable
+    base_title = "Company Feedback Application" # Creating and assigning a variable
     # Boolean test
     if page_title.empty?
       base_title # Implicit return
